@@ -1,0 +1,43 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.iml
+
+# === Build output ===
+/build/
+/target/
+/out/
+
+# === Gradle ===
+.gradle/
+/build/
+
+# === IDE ===
+/.idea/
+/*.iws
+/*.ipr
+/*.iml
+/.classpath
+/.project
+/.settings/
+
+# === OS / 환경별 ===
+.DS_Store
+Thumbs.db
+
+# === Logs and temp ===
+*.log
+*.tmp
+*.swp
+
+# === Application Properties (보안상 무시) ===
+application-dev.yml
+application-prod.yml
+application-local.yml
+application-*.properties
+.env
+*.env
+
