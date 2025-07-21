@@ -1,4 +1,4 @@
-package com.study.jasypt_example.util;
+package com.study.jasypt_example.test;
 
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
 import org.jasypt.encryption.pbe.config.SimpleStringPBEConfig;
@@ -9,7 +9,7 @@ public class JasyptEncryptUtil {
         SimpleStringPBEConfig config = new SimpleStringPBEConfig();
 
         // jasypt.properties의 password와 동일해야 함
-        config.setPassword("비밀번호임");
+        config.setPassword("vmffotvharoqkf1xla");
         config.setAlgorithm("PBEWithHMACSHA512AndAES_256");
         config.setKeyObtentionIterations("1000");
         config.setPoolSize("1");
@@ -22,8 +22,6 @@ public class JasyptEncryptUtil {
         encryptor.setConfig(config);
 
         // 여기에 실제 DB 사용자명과 비밀번호를 입력하세요
-     /*   String originalUsername = "id";
-        String originalPassword = "password";*/
         String originalUsername = "22405006";
         String originalPassword = "dlfbdks1!";
 

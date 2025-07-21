@@ -1,4 +1,4 @@
-package com.study.jasypt_example.config.factory;
+package com.study.jasypt_example.util.converter;
 
 import jakarta.annotation.Nullable;
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;
@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.util.Objects;
 import java.util.Properties;
 
+// 필요함
 public class YamlPropertySourceFactory implements PropertySourceFactory {
 
     @Override

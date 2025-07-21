@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@EnableEncryptableProperties
+@EnableEncryptableProperties	//필요함
 public class JasyptExampleApplication {
 
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.study.jasypt_example.config;
+package com.study.jasypt_example.util.crypto;
 
-import com.study.jasypt_example.config.factory.YamlPropertySourceFactory;
+import com.study.jasypt_example.util.converter.YamlPropertySourceFactory;
 import org.jasypt.encryption.StringEncryptor;
 import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;
 import org.jasypt.encryption.pbe.config.SimpleStringPBEConfig;
@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.PropertySource;
 
+// 필요함
 @Configuration
 @PropertySource(value = "classpath:jasypt.yml", factory = YamlPropertySourceFactory.class)
 public class JasyptConfig {

@@ -1,4 +1,4 @@
-package com.study.jasypt_example.util;
+package com.study.jasypt_example.test;
 
 
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
@@ -11,7 +11,7 @@ public class JasyptDecryptTest {
         SimpleStringPBEConfig config = new SimpleStringPBEConfig();
 
         // yml 세팅과 동일하게
-        config.setPassword("비밀번호임");
+        config.setPassword("vmffotvharoqkf1xla");
         config.setAlgorithm("PBEWithHMACSHA512AndAES_256");
         config.setKeyObtentionIterations("1000");
         config.setPoolSize("1");
