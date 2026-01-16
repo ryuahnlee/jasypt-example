@@ -11,7 +11,7 @@ public class JasyptDecryptTest {
         SimpleStringPBEConfig config = new SimpleStringPBEConfig();
 
         // yml 세팅과 동일하게
-        config.setPassword("vmffotvharoqkf1xla");
+        config.setPassword("tmakxmtpxmfajsxm");
         config.setAlgorithm("PBEWithHMACSHA512AndAES_256");
         config.setKeyObtentionIterations("1000");
         config.setPoolSize("1");
@@ -23,8 +23,8 @@ public class JasyptDecryptTest {
         StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
         encryptor.setConfig(config);
 
-        String encryptedUsername = "Cdw6FZPQoUotX3nd24pkJtI260O+MOfEhSX+i40TF+FDX/WkiVINIHCVzskqgSJN";
-        String encryptedPassword = "eUKm0sZbw63XCWzd9jTEEAnjAiw2x6VxYninKaYO2ocZjtvCd5vB9MHe0n6im6ot";
+        String encryptedUsername = "Kz/iUwGzDOX9mcujADTuO1GhsMH8kC2aFxriEzHGLj6wwIR1us6G/5/AymrKWpaq";
+        String encryptedPassword = "SkkkrGr+to5qm9fDGQPjm1AHe+F3aF2nmH360Zcun4vYs9I2yFnNjYX2wPcQmWj5";
 
         try {
             String decryptedUsername  = encryptor.decrypt(encryptedUsername);
